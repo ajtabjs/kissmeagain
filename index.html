@@ -30,6 +30,8 @@ var video = document.getElementById('gay');
 
 window.addEventListener('click', function() {
   video.play();
+  video.currentTime = 0;
+  video.muted = false;
 });
 
 </script>
