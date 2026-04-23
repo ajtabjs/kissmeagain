@@ -44,10 +44,12 @@ window.addEventListener('click', function() {
 </script>
 
 <script>
-  var bayckground = document.getElementById('background');
+  window.addEventListener('click', function() {
+     var bayckground = document.getElementById('background');
 bayckground.play();
 bayckground.currentTime = 0;
 bayckground.muted = true; // always muted <3
+  });
 </script>
 </body>
 </html>
