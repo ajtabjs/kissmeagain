@@ -31,10 +31,13 @@
 </div>
 
 <script>
-
+   var bayckground = document.getElementById('background');
 var video = document.getElementById('gay');
 
 window.addEventListener('click', function() {
+  bayckground.play();
+bayckground.currentTime = 0;
+bayckground.muted = true; // always muted <3
   video.play();
   video.currentTime = 0;
   video.muted = false;
@@ -43,13 +46,5 @@ window.addEventListener('click', function() {
 
 </script>
 
-<script>
-  window.addEventListener('click', function() {
-     var bayckground = document.getElementById('background');
-bayckground.play();
-bayckground.currentTime = 0;
-bayckground.muted = true; // always muted <3
-  });
-</script>
 </body>
 </html>
