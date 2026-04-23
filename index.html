@@ -16,6 +16,9 @@
 
 
 <div id="video">
+  <video muted loop id="background">
+    <source src="kma.mp4" type="video/mp4">
+  </video>
 <video autoplay muted loop id="gay">
   <source src="kma.mp4" type="video/mp4">
 </video>
@@ -38,6 +41,13 @@ window.addEventListener('click', function() {
   document.body.className = "after";
 });
 
+</script>
+
+<script>
+  var bayckground = document.getElementById('background');
+bayckground.play();
+bayckground.currentTime = 0;
+bayckground.muted = true; // always muted <3
 </script>
 </body>
 </html>
