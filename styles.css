@@ -13,11 +13,18 @@ body{
     display:flex;
     text-align:center;
     align-items:center;
+    justify-content:center;
+    position: fixed;
+    bottom: 1rem; left: 0; right: 0;
+    z-index:2;
 }
 #before p{
 
     color:white;
  font-size:4rem;
+}
+#credits a{
+     color: white;
 }
 #before{
 position:fixed;
@@ -38,6 +45,7 @@ background-color: rgba(0,0,0,0.5);
             .after #credits {
                 transition: opacity 0.5s ease;
                 mix-blend-mode: difference;
+                opacity:1;
             }
 
 #video{
