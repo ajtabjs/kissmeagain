@@ -9,7 +9,11 @@ body{
     font-family:"Figtree", Arial, Helvetica, sans-serif;
 }
 
+#before p{
 
+    color:white;
+ font-size:15pt;
+}
 #before{
 position:fixed;
 width:100vw;
@@ -35,6 +39,6 @@ position:fixed;
     width:100vh;
     height:100vh;
     transform: translate(15%, 0%);
-    min-width:100%;
+    min-height:100%;
     object-fit:cover;
 }
