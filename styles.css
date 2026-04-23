@@ -17,6 +17,7 @@ body{
     position: fixed;
     bottom: 1rem; left: 0; right: 0;
     z-index:2;
+    gap: 1rem;
 }
 #before p{
 
@@ -25,7 +26,6 @@ body{
 }
 #credits a{
      color: #ffffff;
-     gap:1rem;
 }
 #before{
 position:fixed;
