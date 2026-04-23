@@ -15,6 +15,7 @@ text-align:center;
 align-items:center;
 justify-content:center;
 overflow:hidden;
+display:flex;
 background-color: rgba(0,0,0,0.5);
 }
 

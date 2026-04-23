@@ -21,7 +21,7 @@
 </video>
 </div>
 
-<div>
+<div id="credits">
 
     <a href="https://www.youtube.com/watch?v=IDQYlsDqpAU" target="_blank">video</a>
     <a>source code</a>
@@ -35,6 +35,7 @@ window.addEventListener('click', function() {
   video.play();
   video.currentTime = 0;
   video.muted = false;
+  document.body.className = "after";
 });
 
 </script>
