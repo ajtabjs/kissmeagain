@@ -14,10 +14,11 @@ body{
 text-align:center;
 align-items:center;
 justify-content:center;
+overflow:hidden;
 background-color: rgba(0,0,0,0.5);
 }
 
- .after #ap {
+ .after #before {
                 display: none;
             }
             .after-modal #credits {
@@ -28,5 +29,7 @@ background-color: rgba(0,0,0,0.5);
 position:fixed;
     width:100vh;
     height:100vh;
-  display: none;
+    transform: translate(15%, 0%);
+    min-width:100%;
+    object-fit:cover;
 }
