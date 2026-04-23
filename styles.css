@@ -1,8 +1,13 @@
 #before{
 text-align:center;
-
-
 }
+
+ .after #ap {
+                display: none;
+            }
+            .after-modal #credits {
+                mix-blend-mode: difference;
+            }
 
 #video{
 position:fixed;
