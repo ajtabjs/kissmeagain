@@ -24,7 +24,8 @@ body{
  font-size:4rem;
 }
 #credits a{
-     color: white;
+     color: #ffffff;
+     gap:1rem;
 }
 #before{
 position:fixed;
